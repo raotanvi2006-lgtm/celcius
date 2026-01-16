@@ -1,3 +1,4 @@
-celsius = float(input("Enter temperature in Celsius: "))
-fahrenheit = (celsius * 9/5) + 32
-print("Temperature in Fahrenheit:", fahrenheit)
+import sys
+c = float(sys.argv[1])
+f = (c * 9/5) + 32
+print("Fahrenheit:", f)
